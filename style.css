@@ -200,6 +200,25 @@ img{
 	left: 0;
 }
 
-
-
+/* Search */
+div.hd-search{
+	float: right;
+}
+div.hd-search .screen-reader-text{
+	position: absolute;
+	left: -9999px;
+}
+div.hd-search .search-field{
+	border-radius: 0px;
+	border: 1px gray inset;
+	padding: 5px 14px;
+	margin-right: 0px;
+}
+div.hd-search .search-submit{
+	background-color: #006ec3;
+	color: #fff;
+	padding: 5px 14px;
+	border: none;
+	margin-left: 0px;
+}
 
